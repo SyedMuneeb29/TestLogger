@@ -1,3 +1,4 @@
+include ':test2Library'
 include ':testLibrary'
 include ':app'
 rootProject.name = "TestLibraryApp"
