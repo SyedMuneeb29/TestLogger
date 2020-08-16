@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.test2library.Test2Class;
 import com.example.testlibrary.TestClass;
 
 
@@ -16,5 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
         TestClass asd = new TestClass();
         asd.testMethod("", "");
+
+        Test2Class.LogIt();
+
     }
 }

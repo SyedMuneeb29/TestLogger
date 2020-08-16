@@ -32,9 +32,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     //  Dependencies
-    implementation 'com.github.SyedMuneeb29:TestLogger:0.0.1'
+//    project level
+    implementation 'com.github.SyedMuneeb29:TestLogger:0.0.2'
+
+//    separate
+//    implementation 'com.github.SyedMuneeb29.TestLogger:testLibrary:0.0.2'
+//    implementation 'com.github.SyedMuneeb29.TestLogger:test2Library:0.0.2'
+
     //  Local Dependencies
+
 //    implementation project(':testLibrary')
+
     // Open Source Dependencies
 
 
